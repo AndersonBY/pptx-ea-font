@@ -2,7 +2,7 @@
 # @Author: Anderson
 # @Date:   2019-11-14 17:45:03
 # @Last Modified by:   Anderson
-# @Last Modified time: 2021-04-15 02:05:25
+# @Last Modified time: 2021-04-15 02:15:13
 import setuptools
 
 
@@ -13,7 +13,7 @@ setuptools.setup(
     author_email="andersonby@163.com",
     description="Set east asia font in pptx correctly.",
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/AndersonBY/pptx-ea-font",
     packages=setuptools.find_packages(),
     install_requires=['python-pptx'],
     classifiers=[
