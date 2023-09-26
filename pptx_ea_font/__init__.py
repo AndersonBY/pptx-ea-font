@@ -2,7 +2,7 @@
 # @Author: Anderson
 # @Date:   2019-11-11 17:42:18
 # @Last Modified by:   Bi Ying
-# @Last Modified time: 2022-10-12 12:34:07
+# @Last Modified time: 2023-09-26 14:16:14
 from pptx.oxml.ns import qn
 
 
@@ -13,4 +13,4 @@ def set_font(run, font_name):
     else:
         element = run.font._rPr.makeelement(qn("a:ea"))
         element.set("typeface", run.font.name)
-        run.font._rPr.insert(0, element)
+        run.font._rPr.append(element)
