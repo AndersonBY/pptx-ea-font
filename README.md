@@ -1,7 +1,7 @@
 # pptx-ea-font
 Fix the problem that the setting of East Asian fonts in python-pptx is invalid or incorrect.
 
-修正python-pptx中东亚字体设置无效、不正确的问题。
+修正 python-pptx 中东亚字体设置无效、不正确的问题。
 
 ## Installation
 
