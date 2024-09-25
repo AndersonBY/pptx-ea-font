@@ -23,6 +23,6 @@ for slide in prs.slides:
             text_frame = shape.text_frame
             for paragraph in text_frame.paragraphs:
                 for run in paragraph.runs:
-                    pptx_ea_font.set_font(run, '微软雅黑')
+                    pptx_ea_font.set_font(run, '微软雅黑')  # 传入一个 run 对象以及字体名称
 prs.save('字体修改版.pptx')
 ```
