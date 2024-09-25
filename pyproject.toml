@@ -1,0 +1,32 @@
+[build-system]
+build-backend = "pdm.backend"
+requires = ["pdm-backend"]
+
+[project]
+authors = [
+  {name = "MakerBi", email = "andersonby@163.com"},
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "python-pptx",
+  "lxml",
+]
+description = "Set east asia font in pptx correctly."
+license = {text = "MIT"}
+name = "pptx-ea-font"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.0.4"
+
+[project.urls]
+Homepage = "https://github.com/AndersonBY/pptx-ea-font"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+excludes = ["tests"]
